@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vaibhavi Sharma — Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+
+  <nav>
+    <span class="name">Vaibhavi Sharma</span>
+    <div class="links">
+      <a href="#timeline">About</a>
+      <a href="#work">Work</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-top">
+      <div class="avatar">VS</div>
+      <h1 style="margin: 0;">I sit at the intersection of product and go-to-market</h1>
+    </div>
+    <p class="sub">Understanding what customers need, shaping what gets built, and figuring out how it lands. Pick a skill below to see the work.</p>
+    <p class="sub" style="margin-top: -12px;">At Adobe, working across Marketo Engage, Journey Optimizer B2B Edition, and Brand Concierge, focused on B2B customer journeys, product adoption, and use case development. Previously a product manager at Tata Communications for 5+ years. MBA from Berkeley Haas.</p>
+    <div class="actions">
+      <!-- TODO: replace href with your resume PDF path or URL -->
+      <a class="primary" href="#" id="resume-link">Download resume</a>
+      <!-- TODO: replace href with your LinkedIn URL -->
+      <a href="#" id="linkedin-link" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://github.com/VaibhaviSharma" target="_blank" rel="noopener">GitHub</a>
+    </div>
+    <p class="footer-note" style="margin-top: 20px; font-style: italic;">What drives me: a deep curiosity about customers and a bias toward building things that actually get adopted.</p>
+  </section>
+
+  <div class="impact-strip">
+    <div class="impact-stat" style="background: var(--accent-blue-bg);">
+      <p class="num" style="color: var(--accent-blue);">$33M+</p>
+      <p class="label">pipeline driven by a self-serve platform built from concept</p>
+    </div>
+    <div class="impact-stat" style="background: var(--accent-gold-bg);">
+      <p class="num" style="color: var(--accent-gold);">6M+</p>
+      <p class="label">fraudulent transactions blocked in production</p>
+    </div>
+    <div class="impact-stat" style="background: var(--accent-green-bg);">
+      <p class="num" style="color: var(--accent-green);">90%</p>
+      <p class="label">of design partners self-activated 3+ use cases in 30 days</p>
+    </div>
+    <div class="impact-stat" style="background: var(--accent-blue-bg);">
+      <p class="num" style="color: var(--accent-blue);">$800K</p>
+      <p class="label">closed ahead of GA, driven by beta insights</p>
+    </div>
+  </div>
+
+  <section id="timeline">
+    <h2>How I got here</h2>
+    <div class="timeline">
+      <div class="track"></div>
+      <div class="tl-item">
+        <div class="dot" style="background: var(--accent-gold-light);"></div>
+        <p class="period" style="color: var(--accent-gold);">2018–2023, Mumbai</p>
+        <p class="role">Product manager, Tata Communications</p>
+        <p class="desc">Owned cloud and connectivity platforms, including fraud detection and self-service tools, shipped end to end inside a large, risk-averse org.</p>
+      </div>
+      <div class="tl-item">
+        <div class="dot" style="background: var(--accent-blue-light);"></div>
+        <p class="period" style="color: var(--accent-blue);">2023–2025, Berkeley</p>
+        <p class="role">MBA, Haas School of Business</p>
+        <p class="desc">Got sharper on strategy, and curious about how AI is reshaping B2B products.</p>
+      </div>
+      <div class="tl-item">
+        <div class="dot" style="background: var(--accent-green-light);"></div>
+        <p class="period" style="color: var(--accent-green);">2025–present, San Jose</p>
+        <p class="role">Product marketing manager, Adobe</p>
+        <p class="desc">Applying both to AI-native GTM: Brand Concierge, Marketo Optimizer, and AJO B2B.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="work">
+    <h2>Selected work</h2>
+    <div class="filters" id="filters">
+      <span class="filter-pill active" data-skill="all">All</span>
+      <span class="filter-pill" data-skill="building">Concept to production</span>
+      <span class="filter-pill" data-skill="gtm">Launch strategy</span>
+      <span class="filter-pill" data-skill="pricing">Pricing &amp; positioning</span>
+      <span class="filter-pill" data-skill="data">Experimentation &amp; analytics</span>
+      <span class="filter-pill" data-skill="insight">Customer &amp; market insight</span>
+    </div>
+    <p class="intro-note" id="intro-note"></p>
+    <div class="work-grid" id="work-list"></div>
+  </section>
+
+  <section>
+    <h2>Off duty</h2>
+    <!-- TODO: add your own content here -->
+    <p class="footer-note">Currently taking recommendations for what to watch next.</p>
+  </section>
+
+  <footer id="contact">
+    <p style="margin: 0;">vaibhavi2311@gmail.com · <a href="https://github.com/VaibhaviSharma" target="_blank" rel="noopener">github.com/VaibhaviSharma</a></p>
+  </footer>
+
+</div>
+<script src="main.js"></script>
+</body>
+</html>
