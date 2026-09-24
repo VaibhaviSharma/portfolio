@@ -89,6 +89,20 @@ const ITEMS = [
     result:   'An original thesis that now runs through this portfolio and outreach.'
   },
   {
+    id: 'value-framework', title: 'Value-realization framework', tags: ['data'],
+    period: 'Tata Communications, 2018–2023', hasDetail: true,
+    problem: 'A service degradation issue had persisted for two years with no clear way to diagnose root cause across traffic, SLAs, and latency.',
+    approach: 'Built a value-realization framework with clear milestones and tracking across traffic, SLAs, and latency to pinpoint the issue and ship corrective fixes to production.',
+    result: 'Resolved a 2-year-old service degradation issue.'
+  },
+  {
+    id: 'saas-launch', title: 'Cross-functional SaaS launch', tags: ['gtm'],
+    period: 'Tata Communications, 2018–2023', hasDetail: true,
+    problem: 'A new SaaS solution needed buy-in across engineering, marketing, and sales to launch as one coherent product, not three disconnected efforts.',
+    approach: 'Rallied 10+ cross-functional teams around a unified product vision for the launch.',
+    result: '$2M in cross-sell revenue generated.'
+  },
+  {
     id: 'gmail', title: 'Gmail inbox classification agent', tags: ['building'],
     period: 'Personal project', hasDetail: false,
     short: "Built a classification agent with OAuth2, Claude's API, SQLite, and a Streamlit dashboard with an agentic query layer."
@@ -152,7 +166,7 @@ function render(filter) {
   grid.classList.toggle('expanded-mode', useFull);
   note.textContent = useFull
     ? 'Each project below moves from problem, to approach, to result — read top to bottom.'
-    : 'Thirteen projects across five skills — select one above to see the full story behind any of them.';
+    : 'Fifteen projects across five skills — select one above to see the full story behind any of them.';
   grid.innerHTML = items.map(item => {
     if (useFull && item.hasDetail) return renderFull(item);
     return renderCompact(item);
