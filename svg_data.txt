@@ -1,0 +1,49 @@
+<svg viewBox="0 0 680 310" style="width: 100%; height: auto;" role="img" aria-label="Five skill pillars — build, launch, position, analyze, insight — each with capabilities stacked below it">
+        <defs>
+          <marker id="pillarArrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+            <path d="M2 1L8 5L2 9" fill="none" stroke="var(--border)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </marker>
+        </defs>
+
+        <rect x="40" y="40" width="113" height="44" rx="8" fill="var(--accent-blue-bg)" stroke="var(--accent-blue)" stroke-width="0.5"/>
+        <text x="96.5" y="62" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="700" fill="var(--accent-blue)">Build</text>
+        <rect x="161" y="40" width="113" height="44" rx="8" fill="var(--accent-gold-bg)" stroke="var(--accent-gold)" stroke-width="0.5"/>
+        <text x="217.5" y="62" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="700" fill="var(--accent-gold)">Launch</text>
+        <rect x="282" y="40" width="113" height="44" rx="8" fill="var(--accent-green-bg)" stroke="var(--accent-green)" stroke-width="0.5"/>
+        <text x="338.5" y="62" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="700" fill="var(--accent-green)">Position</text>
+        <rect x="403" y="40" width="113" height="44" rx="8" fill="var(--accent-blue-bg)" stroke="var(--accent-blue)" stroke-width="0.5"/>
+        <text x="459.5" y="62" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="700" fill="var(--accent-blue)">Analyze</text>
+        <rect x="524" y="40" width="113" height="44" rx="8" fill="var(--accent-gold-bg)" stroke="var(--accent-gold)" stroke-width="0.5"/>
+        <text x="580.5" y="62" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="700" fill="var(--accent-gold)">Insight</text>
+
+        <line x1="96.5" y1="84" x2="96.5" y2="108" stroke="var(--border)" stroke-width="0.5" marker-end="url(#pillarArrow)"/>
+        <line x1="217.5" y1="84" x2="217.5" y2="108" stroke="var(--border)" stroke-width="0.5" marker-end="url(#pillarArrow)"/>
+        <line x1="338.5" y1="84" x2="338.5" y2="108" stroke="var(--border)" stroke-width="0.5" marker-end="url(#pillarArrow)"/>
+        <line x1="459.5" y1="84" x2="459.5" y2="108" stroke="var(--border)" stroke-width="0.5" marker-end="url(#pillarArrow)"/>
+        <line x1="580.5" y1="84" x2="580.5" y2="108" stroke="var(--border)" stroke-width="0.5" marker-end="url(#pillarArrow)"/>
+
+        <rect x="40" y="110" width="113" height="26" rx="13" fill="var(--surface)" stroke="var(--border)" stroke-width="0.5"/><text x="96.5" y="123" text-anchor="middle" dominant-baseline="central" font-size="12" fill="var(--text-secondary)">Roadmap</text>
+        <rect x="40" y="144" width="113" height="26" rx="13" fill="var(--surface)" stroke="var(--border)" stroke-width="0.5"/><text x="96.5" y="157" text-anchor="middle" dominant-baseline="central" font-size="12" fill="var(--text-secondary)">0→1 build</text>
+        <rect x="40" y="178" width="113" height="26" rx="13" fill="var(--surface)" stroke="var(--border)" stroke-width="0.5"/><text x="96.5" y="191" text-anchor="middle" dominant-baseline="central" font-size="12" fill="var(--text-secondary)">Cross-func.</text>
+        <rect x="40" y="212" width="113" height="26" rx="13" fill="var(--surface)" stroke="var(--border)" stroke-width="0.5"/><text x="96.5" y="225" text-anchor="middle" dominant-baseline="central" font-size="12" fill="var(--text-secondary)">Feasibility</text>
+
+        <rect x="161" y="110" width="113" height="26" rx="13" fill="var(--surface)" stroke="var(--border)" stroke-width="0.5"/><text x="217.5" y="123" text-anchor="middle" dominant-baseline="central" font-size="12" fill="var(--text-secondary)">GTM strategy</text>
+        <rect x="161" y="144" width="113" height="26" rx="13" fill="var(--surface)" stroke="var(--border)" stroke-width="0.5"/><text x="217.5" y="157" text-anchor="middle" dominant-baseline="central" font-size="12" fill="var(--text-secondary)">Enablement</text>
+        <rect x="161" y="178" width="113" height="26" rx="13" fill="var(--surface)" stroke="var(--border)" stroke-width="0.5"/><text x="217.5" y="191" text-anchor="middle" dominant-baseline="central" font-size="12" fill="var(--text-secondary)">Field work</text>
+        <rect x="161" y="212" width="113" height="26" rx="13" fill="var(--surface)" stroke="var(--border)" stroke-width="0.5"/><text x="217.5" y="225" text-anchor="middle" dominant-baseline="central" font-size="12" fill="var(--text-secondary)">Beta programs</text>
+
+        <rect x="282" y="110" width="113" height="26" rx="13" fill="var(--surface)" stroke="var(--border)" stroke-width="0.5"/><text x="338.5" y="123" text-anchor="middle" dominant-baseline="central" font-size="12" fill="var(--text-secondary)">ICP</text>
+        <rect x="282" y="144" width="113" height="26" rx="13" fill="var(--surface)" stroke="var(--border)" stroke-width="0.5"/><text x="338.5" y="157" text-anchor="middle" dominant-baseline="central" font-size="12" fill="var(--text-secondary)">Pricing</text>
+        <rect x="282" y="178" width="113" height="26" rx="13" fill="var(--surface)" stroke="var(--border)" stroke-width="0.5"/><text x="338.5" y="191" text-anchor="middle" dominant-baseline="central" font-size="12" fill="var(--text-secondary)">PLG / trials</text>
+        <rect x="282" y="212" width="113" height="26" rx="13" fill="var(--surface)" stroke="var(--border)" stroke-width="0.5"/><text x="338.5" y="225" text-anchor="middle" dominant-baseline="central" font-size="12" fill="var(--text-secondary)">Messaging</text>
+
+        <rect x="403" y="110" width="113" height="26" rx="13" fill="var(--surface)" stroke="var(--border)" stroke-width="0.5"/><text x="459.5" y="123" text-anchor="middle" dominant-baseline="central" font-size="12" fill="var(--text-secondary)">Funnels</text>
+        <rect x="403" y="144" width="113" height="26" rx="13" fill="var(--surface)" stroke="var(--border)" stroke-width="0.5"/><text x="459.5" y="157" text-anchor="middle" dominant-baseline="central" font-size="12" fill="var(--text-secondary)">A/B tests</text>
+        <rect x="403" y="178" width="113" height="26" rx="13" fill="var(--surface)" stroke="var(--border)" stroke-width="0.5"/><text x="459.5" y="191" text-anchor="middle" dominant-baseline="central" font-size="12" fill="var(--text-secondary)">Adoption</text>
+
+        <rect x="524" y="110" width="113" height="26" rx="13" fill="var(--surface)" stroke="var(--border)" stroke-width="0.5"/><text x="580.5" y="123" text-anchor="middle" dominant-baseline="central" font-size="12" fill="var(--text-secondary)">Market segment.</text>
+        <rect x="524" y="144" width="113" height="26" rx="13" fill="var(--surface)" stroke="var(--border)" stroke-width="0.5"/><text x="580.5" y="157" text-anchor="middle" dominant-baseline="central" font-size="12" fill="var(--text-secondary)">Competitive</text>
+        <rect x="524" y="178" width="113" height="26" rx="13" fill="var(--surface)" stroke="var(--border)" stroke-width="0.5"/><text x="580.5" y="191" text-anchor="middle" dominant-baseline="central" font-size="12" fill="var(--text-secondary)">Personas</text>
+        <rect x="524" y="212" width="113" height="26" rx="13" fill="var(--surface)" stroke="var(--border)" stroke-width="0.5"/><text x="580.5" y="225" text-anchor="middle" dominant-baseline="central" font-size="12" fill="var(--text-secondary)">Advisory boards</text>
+        <rect x="524" y="246" width="113" height="26" rx="13" fill="var(--surface)" stroke="var(--border)" stroke-width="0.5"/><text x="580.5" y="259" text-anchor="middle" dominant-baseline="central" font-size="12" fill="var(--text-secondary)">Deal-health</text>
+      </svg>
